@@ -1,1 +1,1 @@
-first_number = "6.0"
+first_number = ""
