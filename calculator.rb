@@ -24,4 +24,4 @@ it "contains a local variable called first_number that is assigned to a number" 
    second_number = get_variable_from_file('./calculator.rb', "second_number")
    difference = get_variable_from_file('./calculator.rb', "difference")
    
-   expect (difference).to 
+   expect(difference).to eq()
