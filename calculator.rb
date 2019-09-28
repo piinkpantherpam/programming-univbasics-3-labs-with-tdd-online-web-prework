@@ -35,4 +35,5 @@ it "contains a local variable called product that is assigned to the result of m
  expect(difference).to eq(first_number*second_number)
  end
 
-it "contains a local variable called quotient that is assigned to the result of dividing second_number by first_number" do
+it "contains a local variable called quotient that is assigned to the result of dividing first_number by second_number" do
+  
