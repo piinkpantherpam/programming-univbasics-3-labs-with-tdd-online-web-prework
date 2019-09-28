@@ -18,3 +18,4 @@ it "contains a local variable called first_number that is assigned to a number" 
    sum = get_variable_from_file('./calculator.rb', "sum")
  
  expect(sum).to eq(first_number+second_number)
+ end
