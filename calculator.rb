@@ -31,4 +31,5 @@ it "contains a local variable called product that is assigned to the resuilt of 
   first_number = get_variable_from_file(' ./calculator.rb', "first_number")
   second_number = get_variable_from_file('./calculator.rb', "second_number")
   product = get_variable_from_file(' ./calculator.rb', "product")
-  
+ 
+ expect(difference).to eq(first_number) 
