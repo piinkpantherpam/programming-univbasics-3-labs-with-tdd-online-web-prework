@@ -42,3 +42,4 @@ it "contains a local variable called quotient that is assigned to the result of 
 
 expect(quotient).to eq(first_number/second_number) 
 end
+end
