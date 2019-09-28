@@ -16,3 +16,4 @@ it "contains a local variable called first_number that is assigned to a number" 
    first_number = get_variable_from_file('./calculator.rb', "first_number")
    second_number = get_variable_from_file('./calculator.rb', "second_number")
    sum = get_variable_from_file('./calculator.rb', "sum")
+   
