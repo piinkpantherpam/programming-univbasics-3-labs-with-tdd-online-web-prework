@@ -41,3 +41,5 @@ it "contains a local variable called quotient that is assigned to the result of 
   quotient = get_variable_from_file(' ./calculator.rb', "quotient")
 
 expect(quotient).to eq(first_number/second_number) 
+end
+end
