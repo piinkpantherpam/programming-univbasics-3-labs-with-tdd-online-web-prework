@@ -13,4 +13,4 @@ it "contains a local variable called first_number that is assigned to a number" 
  end
  
  it "comtains a local variable called sum that is assigned to the result of adding first_number and second_number" do 
-   first_number is 
+   first_number
