@@ -4,4 +4,4 @@ it "contains a local variable called first_number that is assigned to a number" 
   
    expect(first_number).to be_an(Integer).or be_a(Float)
  end 
- it contains 
+ it "contains a local variable 
