@@ -19,4 +19,4 @@ it "contains a local variable called first_number that is assigned to a number" 
  
  expect(sum).to eq(first_number+second_number)
  end
- it "contains a local variable called difference that is assigned to the result of subtracting "
+ it "contains a local variable called difference that is assigned to the result of subtracting first_number and second_number" do
