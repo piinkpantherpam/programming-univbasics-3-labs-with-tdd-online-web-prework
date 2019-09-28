@@ -34,3 +34,4 @@ it "contains a local variable called product that is assigned to the resuilt of 
  
  expect(difference).to eq(first_number*second_number)
  end
+ 
