@@ -36,4 +36,6 @@ it "contains a local variable called product that is assigned to the result of m
  end
 
 it "contains a local variable called quotient that is assigned to the result of dividing first_number by second_number" do
-  
+  first_number = get_variable_from_file(' ./calculator.rb', "first_number")
+  second_number = get_variable_from_file(' ./calculator.rb', "second_number")
+  quotient = get_variable_from_file(' ./calculator.rb', "quotient")
