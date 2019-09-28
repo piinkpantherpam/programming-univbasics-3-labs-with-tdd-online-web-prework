@@ -27,4 +27,7 @@ it "contains a local variable called first_number that is assigned to a number" 
    expect(difference).to eq(first_number-second_number)
  end
 
-it "contains a local variable called product that is assigned to the resuilt of 
+it "contains a local variable called product that is assigned to the resuilt of multiplying first_number and second_number" do
+  first_number = get_variable_from_file(' ./calculator.rb', "first_number")
+  second_number = get_variable_from_file('./calculator.rb', "second_number")
+  product =
