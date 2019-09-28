@@ -6,5 +6,3 @@ it "contains a local variable called first_number that is assigned to a number" 
  end 
  it "contains a local variable called second_number that is assigned to a number that isn't 0" do 
    second_number= get_variable_from_file('./calculator.rb', "second_number")
-   
-   
