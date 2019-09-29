@@ -1,3 +1,1 @@
-first_number = "8"
-second_number = "2"
-end
+first_number =
