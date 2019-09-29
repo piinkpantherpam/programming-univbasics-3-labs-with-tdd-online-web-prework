@@ -6,5 +6,6 @@ it "contains a local variable called first_number that is assigned to a number" 
    expect(first_number).to be_an(Integer).or be_a(Float)
 first_number = "5" 
 second_number = "2"
+"first_number * second_number"
  end
  
