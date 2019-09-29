@@ -1,1 +1,1 @@
-first_number = "3*10-5"
+first_number = "5"
