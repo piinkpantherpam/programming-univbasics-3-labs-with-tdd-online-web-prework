@@ -4,7 +4,8 @@ it "contains a local variable called first_number that is assigned to a number" 
   first_number= get_variable_from_file('./calculator.rb', "first_number")
   
    expect(first_number).to be_an(Integer).or be_a(Float)
-   
+ end
+ 
    first_number = "6"
  end
   
@@ -13,6 +14,7 @@ it "contains a local variable called first_number that is assigned to a number" 
    
    expect (second_number).to be_an(Integer).or be_a(Float)
    expect (second_number).not_to (equal)0 
+end
    
    second_number = "4"
  end
@@ -23,18 +25,20 @@ it "contains a local variable called first_number that is assigned to a number" 
    sum = get_variable_from_file('./calculator.rb', "sum")
  
  expect(sum).to eq(first_number+second_number)
- sum = (first_number + second_number)
- sum = "10"
  end
  
- expect(sum).to eq(first_number+second_number)
+sum = (first_number + second_number)
+sum = "10"
  end
+ 
  it "contains a local variable called difference that is assigned to the result of subtracting first_number and second_number" do
    first_number = get_variable_from_file('./calculator.rb', "first_number")
    second_number = get_variable_from_file('./calculator.rb', "second_number")
    difference = get_variable_from_file('./calculator.rb', "difference")
    
    expect(difference).to eq(first_number-second_number)
+end
+
 difference = (first_number-second_number)
 difference = "2"
  end
@@ -45,6 +49,8 @@ it "contains a local variable called product that is assigned to the result of m
   product = get_variable_from_file(' ./calculator.rb', "product")
  
  expect(difference).to eq(first_number*second_number)
+end
+
 product = (first_number * second_number)
 product = "24"
  end
