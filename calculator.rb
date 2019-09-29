@@ -24,5 +24,6 @@ it "contains a local variable called first_number that is assigned to a number" 
  
  expect(sum).to eq(first_number+second_number)
  sum = (first_number + second_number)
+ sum = "6"
  end
  
