@@ -5,7 +5,7 @@ it "contains a local variable called first_number that is assigned to a number" 
   
    expect(first_number).to be_an(Integer).or be_a(Float)
    
-   first_number = "2"
+   first_number = "6"
  end
   
  it "contains a local variable called second_number that is assigned to a number that isn't 0" do 
@@ -24,7 +24,7 @@ it "contains a local variable called first_number that is assigned to a number" 
  
  expect(sum).to eq(first_number+second_number)
  sum = (first_number + second_number)
- sum = "6"
+ sum = "10"
  end
  
  expect(sum).to eq(first_number+second_number)
@@ -36,7 +36,7 @@ it "contains a local variable called first_number that is assigned to a number" 
    
    expect(difference).to eq(first_number-second_number)
 difference = (first_number-second_number)
-difference = "-2"
+difference = "2"
  end
 
 it "contains a local variable called product that is assigned to the result of multiplying first_number and second_number" do
@@ -46,7 +46,7 @@ it "contains a local variable called product that is assigned to the result of m
  
  expect(difference).to eq(first_number*second_number)
 product = (first_number * second_number)
-product = "8"
+product = "24"
  end
 
 
